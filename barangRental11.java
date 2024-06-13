@@ -1,0 +1,17 @@
+public class barangRental11 {
+    String noTNKB;
+    String namaKendaraan;
+    String jenisKendaraan;
+    int tahun;
+    int biayaSewa;
+
+    barangRental11(String noTNKB,String namaKendaraan, String jenisKendaraan,int tahun,int biayaSewa){
+        this.noTNKB = noTNKB;
+        this.namaKendaraan = namaKendaraan;
+        this.jenisKendaraan = jenisKendaraan;
+        this.tahun = tahun;
+        this.biayaSewa = biayaSewa;
+    }
+
+
+}
